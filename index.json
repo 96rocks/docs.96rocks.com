@@ -1,0 +1,99 @@
+[
+{
+	"uri": "https://96rocks.github.io/docs.96rocks.com/start/",
+	"title": "Getting started",
+	"tags": [],
+	"description": "",
+	"content": " Start from here Setup Discover the board, learn about all the interfaces, and setup everything.\n"
+},
+{
+	"uri": "https://96rocks.github.io/docs.96rocks.com/start/openthebox/",
+	"title": "Open the box",
+	"tags": [],
+	"description": "",
+	"content": " What\u0026rsquo;s in the box? "
+},
+{
+	"uri": "https://96rocks.github.io/docs.96rocks.com/start/frontside/",
+	"title": "Front Side",
+	"tags": [],
+	"description": "",
+	"content": " Front side of the board "
+},
+{
+	"uri": "https://96rocks.github.io/docs.96rocks.com/start/backside/",
+	"title": "Back Side",
+	"tags": [],
+	"description": "",
+	"content": " Back side of the board "
+},
+{
+	"uri": "https://96rocks.github.io/docs.96rocks.com/start/powerup/",
+	"title": "Power up the board",
+	"tags": [],
+	"description": "",
+	"content": " Power up the board "
+},
+{
+	"uri": "https://96rocks.github.io/docs.96rocks.com/installos/",
+	"title": "Install OS",
+	"tags": [],
+	"description": "",
+	"content": " Time to play Installation Put your favourite OS on the board.\n"
+},
+{
+	"uri": "https://96rocks.github.io/docs.96rocks.com/installos/chooseimage/",
+	"title": "Choose an image",
+	"tags": [],
+	"description": "",
+	"content": "TBD\n"
+},
+{
+	"uri": "https://96rocks.github.io/docs.96rocks.com/installos/tools/",
+	"title": "Tools and drivers",
+	"tags": [],
+	"description": "",
+	"content": "TBD\n"
+},
+{
+	"uri": "https://96rocks.github.io/docs.96rocks.com/installos/install/",
+	"title": "Flash the image",
+	"tags": [],
+	"description": "",
+	"content": "TBD\n"
+},
+{
+	"uri": "https://96rocks.github.io/docs.96rocks.com/hardware/",
+	"title": "Hardware",
+	"tags": [],
+	"description": "",
+	"content": " Learn about the hardware Hardware Details about the hardware design.\n"
+},
+{
+	"uri": "https://96rocks.github.io/docs.96rocks.com/credits/",
+	"title": "About",
+	"tags": [],
+	"description": "",
+	"content": " Contributors Thanks to them  for make Open Source Software a better place !\n.ghContributors{ display:flex; flex-flow: wrap; align-content: flex-start } .ghContributors  div{ width: 50% ; display: inline-flex; margin-bottom: 5px; } .ghContributors  div label{ padding-left: 4px ; } .ghContributors  div span{ font-size: x-small; padding-left: 4px ; }   Projects  AOSP - Android Open Source Project  Tooling  Netlify - Continuous deployement and hosting of this documentation Hugo  "
+},
+{
+	"uri": "https://96rocks.github.io/docs.96rocks.com/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://96rocks.github.io/docs.96rocks.com/",
+	"title": "Doc for 96rocks",
+	"tags": [],
+	"description": "",
+	"content": " Documents for 96rocks 96rocks is a 96boards compliant Single Board Computer based on Rockchip SoCs.\nMain features TBD\nContribute to this documentation Feel free to update this content, just click the Edit this page link displayed on top right of each page, and pullrequest it\nYour modification will be deployed automatically when merged.\n "
+},
+{
+	"uri": "https://96rocks.github.io/docs.96rocks.com/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
