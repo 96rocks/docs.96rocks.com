@@ -1,4 +1,4 @@
-baseURL = "https://96rocks.github.io/docs.96rocks.com/"
+baseURL = "http://docs.96rocks.com/"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 
