@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Doc for 96rocks on Documentation for 96rocks</title>
-    <link>https://96rocks.github.io/docs.96rocks.com/</link>
+    <link>http://docs.96rocks.com/</link>
     <description>Recent content in Doc for 96rocks on Documentation for 96rocks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     
-	<atom:link href="https://96rocks.github.io/docs.96rocks.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://docs.96rocks.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Choose an image</title>
-      <link>https://96rocks.github.io/docs.96rocks.com/installos/chooseimage/</link>
+      <link>http://docs.96rocks.com/installos/chooseimage/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://96rocks.github.io/docs.96rocks.com/installos/chooseimage/</guid>
+      <guid>http://docs.96rocks.com/installos/chooseimage/</guid>
       <description>TBD</description>
     </item>
     
     <item>
       <title>Tools and drivers</title>
-      <link>https://96rocks.github.io/docs.96rocks.com/installos/tools/</link>
+      <link>http://docs.96rocks.com/installos/tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://96rocks.github.io/docs.96rocks.com/installos/tools/</guid>
+      <guid>http://docs.96rocks.com/installos/tools/</guid>
       <description>TBD</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://96rocks.github.io/docs.96rocks.com/credits/</link>
+      <link>http://docs.96rocks.com/credits/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://96rocks.github.io/docs.96rocks.com/credits/</guid>
+      <guid>http://docs.96rocks.com/credits/</guid>
       <description> Contributors Thanks to them  for make Open Source Software a better place !
 .ghContributors{ display:flex; flex-flow: wrap; align-content: flex-start } .ghContributors  div{ width: 50% ; display: inline-flex; margin-bottom: 5px; } .ghContributors  div label{ padding-left: 4px ; } .ghContributors  div span{ font-size: x-small; padding-left: 4px ; }   Projects  AOSP - Android Open Source Project  Tooling  Netlify - Continuous deployement and hosting of this documentation Hugo  </description>
     </item>
