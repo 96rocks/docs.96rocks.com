@@ -63,6 +63,10 @@
   </url>
   
   <url>
+    <loc>https://docs.96rocks.com/contribute/</loc>
+  </url>
+  
+  <url>
     <loc>https://docs.96rocks.com/tags/</loc>
     <priority>0</priority>
   </url>
