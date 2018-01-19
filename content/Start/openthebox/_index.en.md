@@ -8,7 +8,7 @@ weight: 11
 
 The standard ROCK960 packages contains the follow:
 
-![Package List](/Start/openthebox/images/package_list.jpg)
+![Package List](/start/openthebox/images/package_list.jpg)
 
 * Main board
 * 12V/2A power adapter
