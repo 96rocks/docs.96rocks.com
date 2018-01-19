@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Doc for 96rocks on Documentation for 96rocks</title>
+    <title>Docs for 96rocks on Documentation for 96rocks</title>
     <link>https://docs.96rocks.com/</link>
-    <description>Recent content in Doc for 96rocks on Documentation for 96rocks</description>
+    <description>Recent content in Docs for 96rocks on Documentation for 96rocks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     
@@ -12,19 +12,19 @@
     
     <item>
       <title>Choose an image</title>
-      <link>https://docs.96rocks.com/installos/chooseimage/</link>
+      <link>https://docs.96rocks.com/rock960/installos/chooseimage/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://docs.96rocks.com/installos/chooseimage/</guid>
+      <guid>https://docs.96rocks.com/rock960/installos/chooseimage/</guid>
       <description>TBD</description>
     </item>
     
     <item>
       <title>Tools and drivers</title>
-      <link>https://docs.96rocks.com/installos/tools/</link>
+      <link>https://docs.96rocks.com/rock960/installos/tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://docs.96rocks.com/installos/tools/</guid>
+      <guid>https://docs.96rocks.com/rock960/installos/tools/</guid>
       <description>TBD</description>
     </item>
     
