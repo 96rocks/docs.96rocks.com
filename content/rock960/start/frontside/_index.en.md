@@ -7,7 +7,7 @@ weight: 12
 
 The main components on the front side of rock960 are labeled as below:
 
-![Front side with label](/start/frontside/images/rock960_top_with_label.png)
+![Front side with label](/rock960/start/frontside/images/rock960_top_with_label.png)
 
 * **Low Speed Connector**: 96boards CE standard low speed expansion connector. Pin definition can be found at [96boards pinout](https://www.96boards.org/pinout/)
 * **Debug UART**: Low level debug message output, the default baud rate for rock960 is 1500000. You need [USB to TTL]() to connect to host PC. Configure serial tool on host PC.
