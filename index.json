@@ -11,21 +11,28 @@
 	"title": "Open the box",
 	"tags": [],
 	"description": "",
-	"content": " What\u0026rsquo;s in the box? "
+	"content": " What\u0026rsquo;s in the box? The standard ROCK960 packages contains the follow:\n Main board 12V/2A power adapter Transparent acrylic case Screws(M3) Heatsink(22mm x 22mm) Heatsink Plaster  "
 },
 {
 	"uri": "https://docs.96rocks.com/start/frontside/",
 	"title": "Front Side",
 	"tags": [],
 	"description": "",
-	"content": " Front side of the board "
+	"content": " Front side of the board The main components on the front side of rock960 are labeled as below:\n Low Speed Connector: 96boards CE standard low speed expansion connector. Pin definition can be found at 96boards pinout Debug UART: Low level debug message output, the default baud rate for rock960 is 1500000. You need [USB to TTL]() to connect to host PC. Configure serial tool on host PC. Reset Key: Hardware reset key Maskrom Key: Maskrom key is for upgrading the firmware on EMMC or boot from USB. Check Rockchip wiki about Maskrom mode High Speed Connector: 96boards CE standard high speed expansion connector, with two MIPI channel and I2C BT/WIFI Chip: AP6356s, 802.11 ac/a/b/g/n, 2xMIMO BT/WIFI Antenna: On board antenna for BT/WIFI.  "
 },
 {
 	"uri": "https://docs.96rocks.com/start/backside/",
 	"title": "Back Side",
 	"tags": [],
 	"description": "",
-	"content": " Back side of the board "
+	"content": " Back side of the board The main components on the back side of rock960 are labeled as below:\n CPU RK3399: Dual Cortex-A72 plus quad Cortex-A53 with Mali T860MP4 GPU embedded. LPDDR3: Two 32bit LPDDR3 combined to 64bit dram bus, max capacity is 4GB, max frequency is 1866MHz. EMMC: EMMC 5.1 on board storage, 16GB or 32GB. PCIE\u0026amp;Ethernet Conector: Custom connector for PCIE 2.0 and 1000M Ethernet, need expansion board to use them.  "
+},
+{
+	"uri": "https://docs.96rocks.com/start/assemblecase/",
+	"title": "Assemble the case",
+	"tags": [],
+	"description": "",
+	"content": " Assemble the case The protecting film of the acrylic case can be removed.\n Assemble it with screwer, finished as below:\nGlue the heatsink:\n"
 },
 {
 	"uri": "https://docs.96rocks.com/start/powerup/",
@@ -88,7 +95,7 @@
 	"title": "Doc for 96rocks",
 	"tags": [],
 	"description": "",
-	"content": " Documents for 96rocks 96rocks is a 96boards compliant Single Board Computer based on Rockchip SoCs.\nMain features TBD\nContribute to this documentation Feel free to update this content, just click the Edit this page link displayed on top right of each page, and pullrequest it\nYour modification will be deployed automatically when merged.\n "
+	"content": " Documents for 96rocks 96rocks is a serial of 96boards specification compliant Single Board Computer based on Rockchip SoCs.\nBoards List  ROCK960  Contribute to this documentation Feel free to update this content, just click the Edit this page link displayed on top right of each page, and pullrequest it\nYour modification will be deployed automatically when merged.\n "
 },
 {
 	"uri": "https://docs.96rocks.com/tags/",
