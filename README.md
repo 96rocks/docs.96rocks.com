@@ -1,6 +1,11 @@
-# 96rocks Documents
+---
+title: Contribute
+disableToc: true
+---
 
-Documentations for 96rocks. You can view the documents at the [docs.96rocks.com](http://docs.96rocks.com/). This documents is hosted on [Github Page](https://pages.github.com/) with custom domain at [gh-pages branch](https://github.com/96rocks/docs.96rocks.com/tree/gh-pages). The master branch is the souce for the documents.
+# About
+
+This is the Documentations for 96rocks. You can view the documents at the [docs.96rocks.com](http://docs.96rocks.com/). This documents is hosted on [Github Page](https://pages.github.com/) with custom domain at [gh-pages branch](https://github.com/96rocks/docs.96rocks.com/tree/gh-pages). The master branch is the souce for the documents.
 
 # How to contribute
 

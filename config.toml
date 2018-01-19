@@ -7,7 +7,7 @@ theme = "hugo-theme-learn"
 defaultContentLanguageInSubdir= true
 
 [params]
-  editURL = "https://github.com/96rocks/docs/edit/master"
+  editURL = "https://github.com/96rocks/docs.96rocks.com/edit/master/content/"
   description = "Documentation for 96rocks project."
   author = "96rocks project"
   showVisitedLinks = true
@@ -21,10 +21,9 @@ title = "Documentation for 96rocks"
 weight = 1
 languageName = "English"
 
-[[Languages.en.menu.shortcuts]] 
-name = "<i class='fa fa-github'></i> Github repo"
-identifier = "ds"
-url = "https://github.com/96rocks"
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fa fa-github'></i> Contribute"
+url = "contribute"
 weight = 10
 
 [[Languages.en.menu.shortcuts]]
