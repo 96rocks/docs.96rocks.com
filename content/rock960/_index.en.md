@@ -3,4 +3,4 @@ title: "ROCK960"
 chapter: true
 ---
 
-![assemble finished](/rock960/images/rock960_cover.jpg)
+![cover image](/rock960/start/unbox/images/rock960_cover.jpg)

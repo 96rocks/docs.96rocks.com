@@ -1,6 +1,6 @@
 ---
 date: 2016-04-09T16:50:16+02:00
-title: Open the box
+title: In the box
 weight: 11
 ---
 
@@ -8,7 +8,7 @@ weight: 11
 
 The standard ROCK960 packages contains the follow:
 
-![Package List](/rock960/start/openthebox/images/package_list.jpg)
+![Package List](/rock960/start/unbox/images/package_list.jpg)
 
 * Main board
 * 12V/2A power adapter
@@ -16,4 +16,3 @@ The standard ROCK960 packages contains the follow:
 * Screws(M3)
 * Heatsink(22mm x 22mm)
 * Heatsink Plaster 
-
