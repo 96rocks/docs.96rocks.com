@@ -6,9 +6,98 @@
     <description>Recent content in Docs for 96rocks on Documentation for 96rocks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
+    <lastBuildDate>Sat, 09 Apr 2016 16:50:16 +0200</lastBuildDate>
     
 	<atom:link href="https://docs.96rocks.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>In the box</title>
+      <link>https://docs.96rocks.com/rock960/start/unbox/inthebox/</link>
+      <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
+      
+      <guid>https://docs.96rocks.com/rock960/start/unbox/inthebox/</guid>
+      <description> What&amp;rsquo;s in the box? The standard ROCK960 packages contains the follow:
+ Main board 12V/2A power adapter Transparent acrylic case Screws(M3) Heatsink(22mm x 22mm) Heatsink Plaster  </description>
+    </item>
+    
+    <item>
+      <title>Front Side</title>
+      <link>https://docs.96rocks.com/rock960/start/unbox/frontside/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.96rocks.com/rock960/start/unbox/frontside/</guid>
+      <description>Front side of the board The main components on the front side of rock960 are labeled as below:
+ Low Speed Connector: 96boards CE standard low speed expansion connector. Pin definition can be found at 96boards pinout Debug UART: Low level debug message output, the default baud rate for rock960 is 1500000. You need [USB to TTL]() to connect to host PC. Configure serial tool on host PC. Reset Key: Hardware reset key Maskrom Key: Maskrom key is for upgrading the firmware on EMMC or boot from USB.</description>
+    </item>
+    
+    <item>
+      <title>Back Side</title>
+      <link>https://docs.96rocks.com/rock960/start/unbox/backside/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.96rocks.com/rock960/start/unbox/backside/</guid>
+      <description>Back side of the board The main components on the back side of rock960 are labeled as below:
+ CPU RK3399: Dual Cortex-A72 plus quad Cortex-A53 with Mali T860MP4 GPU embedded. LPDDR3: Two 32bit LPDDR3 combined to 64bit dram bus, max capacity is 4GB, max frequency is 1866MHz. EMMC: EMMC 5.1 on board storage, 16GB or 32GB. PCIE&amp;amp;Ethernet Conector: Custom connector for PCIE 2.0 and 1000M Ethernet, need expansion board to use them.</description>
+    </item>
+    
+    <item>
+      <title>Assemble the case</title>
+      <link>https://docs.96rocks.com/rock960/start/unbox/assemblecase/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.96rocks.com/rock960/start/unbox/assemblecase/</guid>
+      <description>Assemble the case The protecting film of the acrylic case can be removed.
+ Assemble it with screwer, finished as below:
+Glue the heatsink:</description>
+    </item>
+    
+    <item>
+      <title>Power up the board</title>
+      <link>https://docs.96rocks.com/rock960/start/unbox/powerup/</link>
+      <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
+      
+      <guid>https://docs.96rocks.com/rock960/start/unbox/powerup/</guid>
+      <description> Power up the board </description>
+    </item>
+    
+    <item>
+      <title>Choose an image</title>
+      <link>https://docs.96rocks.com/rock960/start/installos/chooseos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.96rocks.com/rock960/start/installos/chooseos/</guid>
+      <description>TBD</description>
+    </item>
+    
+    <item>
+      <title>Flash the image</title>
+      <link>https://docs.96rocks.com/rock960/start/installos/flash/</link>
+      <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
+      
+      <guid>https://docs.96rocks.com/rock960/start/installos/flash/</guid>
+      <description>TBD</description>
+    </item>
+    
+    <item>
+      <title>ADB</title>
+      <link>https://docs.96rocks.com/rock960/android/dev/adb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.96rocks.com/rock960/android/dev/adb/</guid>
+      <description>About This page describe how to use adb(Android Debug Bridge) on Rockchip platform.</description>
+    </item>
+    
+    <item>
+      <title>Fastboot</title>
+      <link>https://docs.96rocks.com/rock960/android/dev/fastboot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.96rocks.com/rock960/android/dev/fastboot/</guid>
+      <description>Introduction Fastboot is a USB protocol for the host to communicate with the target android device at bootloader stage. Rockchip implements the fastboot protocol in u-boot, so ROCK960 use fastboot functionality.
+How to go to fastboot mode There are 2 ways to go to fastboot mode
+ In u-boot serial console, type fastboot command to go to fastboot mode In android shell, run adb reboot fastboot or reboot fastboot to reboot to fastboot mode.</description>
+    </item>
     
     <item>
       <title>About</title>
@@ -31,6 +120,39 @@ How to contribute Install hugo The documents is generated by Hugo, a static site
 For apt based Linux such as Debian or Ubuntu:
 sudo apt-get install hugo  For MacOS:
 brew install hugo  Other platform please refer Hugo install documents.</description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://docs.96rocks.com/rock960/start/installos/tools/linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.96rocks.com/rock960/start/installos/tools/linux/</guid>
+      <description>To flash ROCK960 board, you need to install the rkdeveloptool, which is an open source cross platform command line tool. To build rkdeveloptool, follow the instructions below:
+Install build tools:
+sudo apt-get install libudev-dev libusb-1.0-0-dev dh-autoreconf  Clone the source code and build:
+git clone https://github.com/rockchip-linux/rkdeveloptool cd rkdeveloptool autoreconf -i ./configure make  Now you have rkdeveloptool executable at the current directory.</description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>https://docs.96rocks.com/rock960/start/installos/tools/windows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.96rocks.com/rock960/start/installos/tools/windows/</guid>
+      <description>To flash ROCK960 board, you need to install the rkdeveloptool, which is an open source cross platform command line tool.</description>
+    </item>
+    
+    <item>
+      <title>macOS</title>
+      <link>https://docs.96rocks.com/rock960/start/installos/tools/macos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.96rocks.com/rock960/start/installos/tools/macos/</guid>
+      <description>To flash ROCK960 board, you need to install the rkdeveloptool, which is an open source cross platform command line tool. To build rkdeveloptool, you should have installed brew on your macOS.
+Install build tools:
+brew install automake autoconf libusb  Clone the source code and build:
+git clone https://github.com/rockchip-linux/rkdeveloptool cd rkdeveloptool autoreconf -i ./configure make  Now you have rkdeveloptool executable at the current directory.</description>
     </item>
     
   </channel>

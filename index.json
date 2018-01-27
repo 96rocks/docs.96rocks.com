@@ -4,70 +4,105 @@
 	"title": "Getting started",
 	"tags": [],
 	"description": "",
-	"content": " Start from here Setup Discover the board, learn about all the interfaces, and setup everything.\n"
+	"content": "Now you have a package of ROCK960. Follow the instructions below to start use it.\n Set up    In the box   Front Side   Back Side   Assemble the case   Power up the board    Install OS    Choose an image   Tools and drivers   Flash the image    Basic usage     "
 },
 {
-	"uri": "https://docs.96rocks.com/rock960/start/openthebox/",
-	"title": "Open the box",
+	"uri": "https://docs.96rocks.com/rock960/start/unbox/",
+	"title": "Set up",
+	"tags": [],
+	"description": "",
+	"content": " Start from here Set up Discover the board, learn about all the interfaces, and setup everything.\n"
+},
+{
+	"uri": "https://docs.96rocks.com/rock960/start/unbox/inthebox/",
+	"title": "In the box",
 	"tags": [],
 	"description": "",
 	"content": " What\u0026rsquo;s in the box? The standard ROCK960 packages contains the follow:\n Main board 12V/2A power adapter Transparent acrylic case Screws(M3) Heatsink(22mm x 22mm) Heatsink Plaster  "
 },
 {
-	"uri": "https://docs.96rocks.com/rock960/start/frontside/",
+	"uri": "https://docs.96rocks.com/rock960/start/unbox/frontside/",
 	"title": "Front Side",
 	"tags": [],
 	"description": "",
 	"content": " Front side of the board The main components on the front side of rock960 are labeled as below:\n Low Speed Connector: 96boards CE standard low speed expansion connector. Pin definition can be found at 96boards pinout Debug UART: Low level debug message output, the default baud rate for rock960 is 1500000. You need [USB to TTL]() to connect to host PC. Configure serial tool on host PC. Reset Key: Hardware reset key Maskrom Key: Maskrom key is for upgrading the firmware on EMMC or boot from USB. Check Rockchip wiki about Maskrom mode High Speed Connector: 96boards CE standard high speed expansion connector, with two MIPI channel and I2C BT/WIFI Chip: AP6356s, 802.11 ac/a/b/g/n, 2xMIMO BT/WIFI Antenna: On board antenna for BT/WIFI.  "
 },
 {
-	"uri": "https://docs.96rocks.com/rock960/start/backside/",
+	"uri": "https://docs.96rocks.com/rock960/start/unbox/backside/",
 	"title": "Back Side",
 	"tags": [],
 	"description": "",
 	"content": " Back side of the board The main components on the back side of rock960 are labeled as below:\n CPU RK3399: Dual Cortex-A72 plus quad Cortex-A53 with Mali T860MP4 GPU embedded. LPDDR3: Two 32bit LPDDR3 combined to 64bit dram bus, max capacity is 4GB, max frequency is 1866MHz. EMMC: EMMC 5.1 on board storage, 16GB or 32GB. PCIE\u0026amp;Ethernet Conector: Custom connector for PCIE 2.0 and 1000M Ethernet, need expansion board to use them.  "
 },
 {
-	"uri": "https://docs.96rocks.com/rock960/start/assemblecase/",
+	"uri": "https://docs.96rocks.com/rock960/start/unbox/assemblecase/",
 	"title": "Assemble the case",
 	"tags": [],
 	"description": "",
 	"content": " Assemble the case The protecting film of the acrylic case can be removed.\n Assemble it with screwer, finished as below:\nGlue the heatsink:\n"
 },
 {
-	"uri": "https://docs.96rocks.com/rock960/start/powerup/",
+	"uri": "https://docs.96rocks.com/rock960/start/unbox/powerup/",
 	"title": "Power up the board",
 	"tags": [],
 	"description": "",
 	"content": " Power up the board "
 },
 {
-	"uri": "https://docs.96rocks.com/rock960/installos/",
+	"uri": "https://docs.96rocks.com/rock960/start/installos/",
 	"title": "Install OS",
 	"tags": [],
 	"description": "",
 	"content": " Time to play Installation Put your favourite OS on the board.\n"
 },
 {
-	"uri": "https://docs.96rocks.com/rock960/installos/chooseimage/",
+	"uri": "https://docs.96rocks.com/rock960/start/installos/chooseos/",
 	"title": "Choose an image",
 	"tags": [],
 	"description": "",
 	"content": "TBD\n"
 },
 {
-	"uri": "https://docs.96rocks.com/rock960/installos/tools/",
+	"uri": "https://docs.96rocks.com/rock960/start/installos/tools/",
 	"title": "Tools and drivers",
 	"tags": [],
 	"description": "Find the tools for your desktop platform",
 	"content": "Choose your desktop environment to start.\n Linux   Windows   macOS   "
 },
 {
-	"uri": "https://docs.96rocks.com/rock960/installos/install/",
+	"uri": "https://docs.96rocks.com/rock960/start/installos/flash/",
 	"title": "Flash the image",
 	"tags": [],
 	"description": "",
 	"content": "TBD\n"
+},
+{
+	"uri": "https://docs.96rocks.com/rock960/start/usage/",
+	"title": "Basic usage",
+	"tags": [],
+	"description": "",
+	"content": " Start to use OS Introduction Introduce about the distribution for the board.\n"
+},
+{
+	"uri": "https://docs.96rocks.com/rock960/android/dev/adb/",
+	"title": "ADB",
+	"tags": [],
+	"description": "",
+	"content": " About This page describe how to use adb(Android Debug Bridge) on Rockchip platform.\n"
+},
+{
+	"uri": "https://docs.96rocks.com/rock960/android/",
+	"title": "Android Development",
+	"tags": [],
+	"description": "",
+	"content": " Usage and dev tips for android Android mobile operating system developed by Google\n"
+},
+{
+	"uri": "https://docs.96rocks.com/rock960/android/dev/fastboot/",
+	"title": "Fastboot",
+	"tags": [],
+	"description": "",
+	"content": " Introduction Fastboot is a USB protocol for the host to communicate with the target android device at bootloader stage. Rockchip implements the fastboot protocol in u-boot, so ROCK960 use fastboot functionality.\nHow to go to fastboot mode There are 2 ways to go to fastboot mode\n In u-boot serial console, type fastboot command to go to fastboot mode In android shell, run adb reboot fastboot or reboot fastboot to reboot to fastboot mode. Note: adb reboot bootloader or adb reboot loader will reboot to Rockusb mode, not fastboot mode.  Supported fastboot commands Get info command fastboot getvar version #get the version fastboot getvar version-bootloader #get the bootloader version fastboot getvar unlocked #check if unlocked fastboot getvar secure #check if locked fastboot getvar product #get product name fastboot getvar serialno #get serial number fastboot getvar partition-type:\u0026lt;partition_name\u0026gt; #get partition type fastboot getvar partition-size:\u0026lt;partition_name\u0026gt; #get partition size fastboot getvar partition-offset:\u0026lt;partition_name\u0026gt; #get partition offset  Lock/Unlock command fastboot oem unlock fastboot oem unlock_accept (oem unlock_accept command must be input within 5 seconds after oem unlock command) fastboot lock #lock the devices  Write images command You must unlock the device first and then write images.\nfastboot flash \u0026lt;partition_name\u0026gt; \u0026lt;file_name\u0026gt; (For example, fastboot flash system system.img) (Note: the partition name for parameter/loader is \u0026quot;parameter\u0026quot;/\u0026quot;loader\u0026quot;)  Reboot command fastboot oem recovery #reboot to recovery fastboot oem recovery:wipe_data #reboot to factory reset fastboot reboot #just reboot fastboot reboot-bootloader #reboot to rockusb mode fastboot continue #normal boot  "
 },
 {
 	"uri": "https://docs.96rocks.com/rock960/hardware/",
@@ -105,7 +140,7 @@
 	"content": " About This is the Documentations for 96rocks. You can view the documents at the docs.96rocks.com. This documents is hosted on Github Page with custom domain at gh-pages branch. The master branch is the souce for the documents.\nHow to contribute Install hugo The documents is generated by Hugo, a static site generator.\nFor apt based Linux such as Debian or Ubuntu:\nsudo apt-get install hugo  For MacOS:\nbrew install hugo  Other platform please refer Hugo install documents.\nLocal preview Fork the repo and clone it\ngit clone --recurse https://github.com/96rocks/docs.96rocks.com.git cd docs.96rocks.com hugo server  The output is like below:\n... Serving pages from memory Web Server is available at http://localhost:1313/ (bind address 127.0.0.1) Press Ctrl+C to stop  Open your browser, go to http://localhost:1313/ and you can view the docs locally.\nPrepare the gh-pages branch We use git’s worktree feature to checkout the gh-pages branch at public folder(which hugo will generate all the html to). Essentially, the worktree allows you to have multiple branches of the same local repository to be checked out in different directories.\nRun\n./publish.sh cd public git branch  You should see the gh-pages branch.\nEdit/Add documents The documents are under content directory, starting with _index.en.md(with multiple language support). You can copy and paste the exsiting files to start new sections. Put all the images in one image directory. Hugo can auto refresh if there is any file changes. Commit and push the change to your repo if the preview is ok and send pull request from the master branch. We will merge it and update the gh-pages branch. Updating gh-pages branch is live instantly. Your contribution will be automatically added to the credit section once merged.\n"
 },
 {
-	"uri": "https://docs.96rocks.com/rock960/installos/tools/linux/",
+	"uri": "https://docs.96rocks.com/rock960/start/installos/tools/linux/",
 	"title": "Linux",
 	"tags": [],
 	"description": "Install rkdeveloptool on Linux",
@@ -126,14 +161,14 @@
 	"content": ""
 },
 {
-	"uri": "https://docs.96rocks.com/rock960/installos/tools/windows/",
+	"uri": "https://docs.96rocks.com/rock960/start/installos/tools/windows/",
 	"title": "Windows",
 	"tags": [],
 	"description": "Install rkdeveloptool on Windows",
 	"content": "To flash ROCK960 board, you need to install the rkdeveloptool, which is an open source cross platform command line tool.\n"
 },
 {
-	"uri": "https://docs.96rocks.com/rock960/installos/tools/macos/",
+	"uri": "https://docs.96rocks.com/rock960/start/installos/tools/macos/",
 	"title": "macOS",
 	"tags": [],
 	"description": "Install rkdeveloptool on macOS",

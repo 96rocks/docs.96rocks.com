@@ -7,42 +7,64 @@
   </url>
   
   <url>
-    <loc>https://docs.96rocks.com/rock960/start/openthebox/</loc>
+    <loc>https://docs.96rocks.com/rock960/start/unbox/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://docs.96rocks.com/rock960/start/frontside/</loc>
-  </url>
-  
-  <url>
-    <loc>https://docs.96rocks.com/rock960/start/backside/</loc>
-  </url>
-  
-  <url>
-    <loc>https://docs.96rocks.com/rock960/start/assemblecase/</loc>
-  </url>
-  
-  <url>
-    <loc>https://docs.96rocks.com/rock960/start/powerup/</loc>
+    <loc>https://docs.96rocks.com/rock960/start/unbox/inthebox/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://docs.96rocks.com/rock960/installos/</loc>
+    <loc>https://docs.96rocks.com/rock960/start/unbox/frontside/</loc>
   </url>
   
   <url>
-    <loc>https://docs.96rocks.com/rock960/installos/chooseimage/</loc>
+    <loc>https://docs.96rocks.com/rock960/start/unbox/backside/</loc>
   </url>
   
   <url>
-    <loc>https://docs.96rocks.com/rock960/installos/tools/</loc>
+    <loc>https://docs.96rocks.com/rock960/start/unbox/assemblecase/</loc>
   </url>
   
   <url>
-    <loc>https://docs.96rocks.com/rock960/installos/install/</loc>
+    <loc>https://docs.96rocks.com/rock960/start/unbox/powerup/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://docs.96rocks.com/rock960/start/installos/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://docs.96rocks.com/rock960/start/installos/chooseos/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.96rocks.com/rock960/start/installos/tools/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.96rocks.com/rock960/start/installos/flash/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://docs.96rocks.com/rock960/start/usage/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.96rocks.com/rock960/android/dev/adb/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.96rocks.com/rock960/android/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.96rocks.com/rock960/android/dev/fastboot/</loc>
   </url>
   
   <url>
@@ -60,6 +82,7 @@
   
   <url>
     <loc>https://docs.96rocks.com/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
   </url>
   
   <url>
@@ -67,7 +90,7 @@
   </url>
   
   <url>
-    <loc>https://docs.96rocks.com/rock960/installos/tools/linux/</loc>
+    <loc>https://docs.96rocks.com/rock960/start/installos/tools/linux/</loc>
   </url>
   
   <url>
@@ -80,11 +103,11 @@
   </url>
   
   <url>
-    <loc>https://docs.96rocks.com/rock960/installos/tools/windows/</loc>
+    <loc>https://docs.96rocks.com/rock960/start/installos/tools/windows/</loc>
   </url>
   
   <url>
-    <loc>https://docs.96rocks.com/rock960/installos/tools/macos/</loc>
+    <loc>https://docs.96rocks.com/rock960/start/installos/tools/macos/</loc>
   </url>
   
 </urlset>

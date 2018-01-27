@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="https://docs.96rocks.com//images/favicon.ico" type="image/x-icon" />
 
-    <title>Docs for 96rocks :: Documentation for 96rocks</title>
+    <title>Fastboot :: Documentation for 96rocks</title>
     
     
     <link href="/css/nucleus.css?1517066925" rel="stylesheet">
@@ -32,7 +32,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/">
+  <body class="" data-url="/rock960/android/dev/fastboot/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -75,7 +75,7 @@
   
     
     <li data-nav-id="/rock960/" title="ROCK960" class="dd-item 
-        
+        parent
         
         
         ">
@@ -468,7 +468,7 @@
   
     
     <li data-nav-id="/rock960/android/" title="Android Development" class="dd-item 
-        
+        parent
         
         
         ">
@@ -513,7 +513,7 @@
  
   
     
-      <li data-nav-id="/rock960/android/dev/fastboot/" title="Fastboot" class="dd-item ">
+      <li data-nav-id="/rock960/android/dev/fastboot/" title="Fastboot" class="dd-item active">
         <a href="/rock960/android/dev/fastboot/">
         Fastboot
         <i class="fa fa-check read-icon"></i>
@@ -633,38 +633,155 @@
         <div id="overlay"></div>
         <div class="padding highlightable sticky-parent">
               
+              <div class="sticky-spacer">
+                <div id="top-bar">
+                
+                  
+                  
+                  
+                  <div id="top-github-link">
+                    <a class="github-link" href="https://github.com/96rocks/docs.96rocks.com/edit/master/content/rock960/android/dev/fastboot.en.md" target="blank">
+                      <i class="fa fa-code-fork"></i>
+                      Edit this page
+                    </a>
+                  </div>
+                  
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fa fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'>Docs for 96rocks</a> > <a href='/rock960/'>ROCK960</a> > <a href='/rock960/android/'>Android Development</a> > Fastboot
+          
+         
+          
+         
+          
+         
+          
+           
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#how-to-go-to-fastboot-mode">How to go to fastboot mode</a></li>
+<li><a href="#supported-fastboot-commands">Supported fastboot commands</a>
+<ul>
+<li><a href="#get-info-command">Get info command</a></li>
+<li><a href="#lock-unlock-command">Lock/Unlock command</a></li>
+<li><a href="#write-images-command">Write images command</a></li>
+<li><a href="#reboot-command">Reboot command</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
 
         
         <div id="body-inner">
           
+            <h1>Fastboot</h1>
+          
 
         
-<span id="sidebar-toggle-span">
-<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fa fa-bars"></i> navigation</a>
-</span>
-
- 
 
 
-<h1 id="documents-for-96rocks">Documents for 96rocks</h1>
 
-<p><a href="http://96rocks.com">96rocks</a> is a series of <a href="http://96boards.org">96boards</a> specification compliant Single Board Computer based on <a href="http://www.rock-chips.com/">Rockchip</a> SoCs.</p>
+<h2 id="introduction">Introduction</h2>
 
-<h2 id="boards-list">Boards List</h2>
+<p>Fastboot is a USB protocol for the host to communicate with the target android device at bootloader stage. Rockchip implements the fastboot protocol in u-boot, so ROCK960 use fastboot functionality.</p>
+
+<h2 id="how-to-go-to-fastboot-mode">How to go to fastboot mode</h2>
+
+<p>There are 2 ways to go to fastboot mode</p>
 
 <ul>
-<li><a href="/rock960">ROCK960</a></li>
+<li>In u-boot serial console, type <code>fastboot</code> command to go to fastboot mode</li>
+<li>In android shell, run <code>adb reboot fastboot</code> or <code>reboot fastboot</code> to reboot to fastboot mode. <strong>Note:</strong> <code>adb reboot bootloader</code> or <code>adb reboot loader</code> will reboot to <a href="http://opensource.rock-chips.com/wiki_Rockusb">Rockusb mode</a>, not fastboot mode.</li>
 </ul>
 
-<h2 id="contribute-to-this-documentation">Contribute to this documentation</h2>
+<h2 id="supported-fastboot-commands">Supported fastboot commands</h2>
 
-<p>Feel free to update this content, just click the <strong>Edit this page</strong> link displayed on top right of each page, and pullrequest it</p>
+<h3 id="get-info-command">Get info command</h3>
 
-<div class="notices info" ><p>Your modification will be deployed automatically when merged.</p>
-</div>
+<pre><code>fastboot getvar version                             #get the version
+fastboot getvar version-bootloader                  #get the bootloader version
+fastboot getvar unlocked                            #check if unlocked
+fastboot getvar secure                              #check if locked
+fastboot getvar product                             #get product name
+fastboot getvar serialno                            #get serial number
+fastboot getvar partition-type:&lt;partition_name&gt;     #get partition type
+fastboot getvar partition-size:&lt;partition_name&gt;     #get partition size
+fastboot getvar partition-offset:&lt;partition_name&gt;   #get partition offset
+</code></pre>
 
+<h3 id="lock-unlock-command">Lock/Unlock command</h3>
+
+<pre><code>fastboot oem unlock
+fastboot oem unlock_accept
+(oem unlock_accept command must be input within 5 seconds after oem unlock command)
+
+fastboot lock                 #lock the devices
+</code></pre>
+
+<h3 id="write-images-command">Write images command</h3>
+
+<p>You must unlock the device first and then write images.</p>
+
+<pre><code>fastboot flash &lt;partition_name&gt; &lt;file_name&gt;
+(For example, fastboot flash system system.img)
+(Note: the partition name for parameter/loader is &quot;parameter&quot;/&quot;loader&quot;)
+</code></pre>
+
+<h3 id="reboot-command">Reboot command</h3>
+
+<pre><code>fastboot oem recovery               #reboot to recovery
+fastboot oem recovery:wipe_data     #reboot to factory reset
+fastboot reboot                     #just reboot
+fastboot reboot-bootloader          #reboot to rockusb mode
+fastboot continue                   #normal boot
+</code></pre>
+
+
+<footer class=" footline" >
 	
-  
+</footer>
+
+
         
         </div> 
       </div>
@@ -694,6 +811,22 @@
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
                         
                         
                     
@@ -717,39 +850,8 @@
 
                     
                     
-                        
-                    
                     
 
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
                     
                         
             
@@ -815,24 +917,6 @@
             
         
                     
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
                         
             
             
@@ -849,6 +933,9 @@
             
         
                     
+            
+        
+                    
                         
             
             
@@ -858,6 +945,8 @@
                 
 
                     
+                    
+                        
                     
                     
 
@@ -891,9 +980,6 @@
                     
 
                     
-            
-        
-                    
                         
             
             
@@ -909,60 +995,6 @@
                     
             
         
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
                     
                         
             
@@ -1018,6 +1050,100 @@
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
             
         
         
@@ -1025,8 +1151,10 @@
 
 
         
+            <a class="nav nav-prev" href="/rock960/android/dev/adb/" title="ADB"> <i class="fa fa-chevron-left"></i></a>
         
-            <a class="nav nav-next" href="/rock960/" title="ROCK960" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        
+            <a class="nav nav-next" href="/rock960/hardware/" title="Hardware" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 
@@ -1065,3 +1193,4 @@
 
   </body>
 </html>
+
