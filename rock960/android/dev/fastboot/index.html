@@ -12,17 +12,17 @@
     <title>Fastboot :: Documentation for 96rocks</title>
     
     
-    <link href="/css/nucleus.css?1517066925" rel="stylesheet">
-    <link href="/css/font-awesome.min.css?1517066925" rel="stylesheet">
-    <link href="/css/hybrid.css?1517066925" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1517066925" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1517066925" rel="stylesheet">
-    <link href="/css/horsey.css?1517066925" rel="stylesheet">
-    <link href="/css/theme.css?1517066925" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1517066925" rel="stylesheet">
+    <link href="/css/nucleus.css?1517067464" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1517067464" rel="stylesheet">
+    <link href="/css/hybrid.css?1517067464" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1517067464" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1517067464" rel="stylesheet">
+    <link href="/css/horsey.css?1517067464" rel="stylesheet">
+    <link href="/css/theme.css?1517067464" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1517067464" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1517066925"></script>
+    <script src="/js/jquery-2.x.min.js?1517067464"></script>
     
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
@@ -51,14 +51,14 @@
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1517066925"></script>
-<script type="text/javascript" src="/js/horsey.js?1517066925"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1517067464"></script>
+<script type="text/javascript" src="/js/horsey.js?1517067464"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/docs.96rocks.com\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1517066925"></script>
+<script type="text/javascript" src="/js/search.js?1517067464"></script>
 
     
   </div>
@@ -693,6 +693,7 @@
 <ul>
 <li><a href="#introduction">Introduction</a></li>
 <li><a href="#how-to-go-to-fastboot-mode">How to go to fastboot mode</a></li>
+<li><a href="#fastboot-host-tools">Fastboot host tools</a></li>
 <li><a href="#supported-fastboot-commands">Supported fastboot commands</a>
 <ul>
 <li><a href="#get-info-command">Get info command</a></li>
@@ -733,6 +734,13 @@
 <li>In u-boot serial console, type <code>fastboot</code> command to go to fastboot mode</li>
 <li>In android shell, run <code>adb reboot fastboot</code> or <code>reboot fastboot</code> to reboot to fastboot mode. <strong>Note:</strong> <code>adb reboot bootloader</code> or <code>adb reboot loader</code> will reboot to <a href="http://opensource.rock-chips.com/wiki_Rockusb">Rockusb mode</a>, not fastboot mode.</li>
 </ul>
+
+<h2 id="fastboot-host-tools">Fastboot host tools</h2>
+
+<p>The fastboot host command can run on Windows/Linux/macOS. To check if the devices is in fastboot mode:</p>
+
+<pre><code>fastboot -i 0x2207 devices
+</code></pre>
 
 <h2 id="supported-fastboot-commands">Supported fastboot commands</h2>
 
@@ -1163,20 +1171,20 @@ fastboot continue                   #normal boot
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1517066925"></script>
-    <script src="/js/perfect-scrollbar.min.js?1517066925"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1517066925"></script>
-    <script src="/js/jquery.sticky-kit.min.js?1517066925"></script>
-    <script src="/js/featherlight.min.js?1517066925"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1517066925"></script>
-    <script src="/js/highlight.pack.js?1517066925"></script>
+    <script src="/js/clipboard.min.js?1517067464"></script>
+    <script src="/js/perfect-scrollbar.min.js?1517067464"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1517067464"></script>
+    <script src="/js/jquery.sticky-kit.min.js?1517067464"></script>
+    <script src="/js/featherlight.min.js?1517067464"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1517067464"></script>
+    <script src="/js/highlight.pack.js?1517067464"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1517066925"></script>
-    <script src="/js/learn.js?1517066925"></script>
-    <script src="/js/hugo-learn.js?1517066925"></script>
+    <script src="/js/modernizr.custom.71422.js?1517067464"></script>
+    <script src="/js/learn.js?1517067464"></script>
+    <script src="/js/hugo-learn.js?1517067464"></script>
 
-    <link href="/mermaid/mermaid.css?1517066925" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1517066925"></script>
+    <link href="/mermaid/mermaid.css?1517067464" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1517067464"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
