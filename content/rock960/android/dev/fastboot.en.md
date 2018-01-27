@@ -13,6 +13,12 @@ There are 2 ways to go to fastboot mode
 - In u-boot serial console, type `fastboot` command to go to fastboot mode
 - In android shell, run `adb reboot fastboot` or `reboot fastboot` to reboot to fastboot mode. **Note:** `adb reboot bootloader` or `adb reboot loader` will reboot to [Rockusb mode](http://opensource.rock-chips.com/wiki_Rockusb), not fastboot mode.
 
+## Fastboot host tools
+The fastboot host command can run on Windows/Linux/macOS. To check if the devices is in fastboot mode:
+
+	fastboot -i 0x2207 devices
+
+
 ## Supported fastboot commands 
 
 ### Get info command
