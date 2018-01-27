@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="generator" content="Hugo 0.26" />
-    <meta name="description" content="Documentation for 96rocks project.">
+    <meta name="description" content="Install rkdeveloptool on Linux">
 <meta name="author" content="96rocks project">
 
     <link rel="shortcut icon" href="https://docs.96rocks.com//images/favicon.ico" type="image/x-icon" />
 
-    <title>Hardware :: Documentation for 96rocks</title>
+    <title>Linux :: Documentation for 96rocks</title>
     
     
     <link href="/css/nucleus.css?1517038586" rel="stylesheet">
@@ -32,7 +32,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/rock960/hardware/">
+  <body class="" data-url="/rock960/installos/tools/linux/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -272,7 +272,7 @@
   
     
     <li data-nav-id="/rock960/installos/" title="Install OS" class="dd-item 
-        
+        parent
         
         
         ">
@@ -327,7 +327,7 @@
   
     
     <li data-nav-id="/rock960/installos/tools/" title="Tools and drivers" class="dd-item 
-        
+        parent
         
         
         ">
@@ -356,8 +356,8 @@
   
     
     <li data-nav-id="/rock960/installos/tools/linux/" title="Linux" class="dd-item 
-        
-        
+        parent
+        active
         
         ">
       <a href="/rock960/installos/tools/linux/">
@@ -478,8 +478,8 @@
   
     
     <li data-nav-id="/rock960/hardware/" title="Hardware" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
       <a href="/rock960/hardware/">
@@ -576,7 +576,7 @@
                   
                   
                   <div id="top-github-link">
-                    <a class="github-link" href="https://github.com/96rocks/docs.96rocks.com/edit/master/content/rock960/hardware/_index.en.md" target="blank">
+                    <a class="github-link" href="https://github.com/96rocks/docs.96rocks.com/edit/master/content/rock960/installos/tools/linux/_index.en.md" target="blank">
                       <i class="fa fa-code-fork"></i>
                       Edit this page
                     </a>
@@ -591,6 +591,8 @@
                         </a>
                     </span>
                   
+                  <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+                  
                   <span class="links">
                     
           
@@ -603,7 +605,19 @@
             
           
           
-            <a href='/'>Docs for 96rocks</a> > <a href='/rock960/'>ROCK960</a> > Hardware
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'>Docs for 96rocks</a> > <a href='/rock960/'>ROCK960</a> > <a href='/rock960/installos/'>Install OS</a> > <a href='/rock960/installos/tools/'>Tools and drivers</a> > Linux
+          
+         
+          
+         
           
          
           
@@ -613,33 +627,48 @@
                   </span>
                 </div>
                 
+                    <div class="progress">
+    <div class="wrapper">
+
+    </div>
+</div>
+
+                
               </div>
             </div>
             
 
         
-          <div id="chapter">
-        
         <div id="body-inner">
+          
+            <h1>Linux</h1>
           
 
         
 
+<p>To flash ROCK960 board, you need to install the rkdeveloptool, which is an open source cross platform command line tool. To build rkdeveloptool, follow the instructions below:</p>
 
+<p>Install build tools:</p>
 
-<h3 id="learn-about-the-hardware">Learn about the hardware</h3>
+<pre><code>sudo apt-get install libudev-dev libusb-1.0-0-dev dh-autoreconf
+</code></pre>
 
-<h1 id="hardware">Hardware</h1>
+<p>Clone the source code and build:</p>
 
-<p>Details about the hardware design.</p>
+<pre><code>git clone https://github.com/rockchip-linux/rkdeveloptool
+cd rkdeveloptool
+autoreconf -i
+./configure
+make
+</code></pre>
+
+<p>Now you have rkdeveloptool executable at the current directory.</p>
 
 
 <footer class=" footline" >
 	
 </footer>
 
-        
-            </div> 
         
         </div> 
       </div>
@@ -786,6 +815,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -800,6 +830,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -817,6 +850,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -831,6 +865,7 @@
             
             
                 
+                    
                     
                 
                 
@@ -848,21 +883,8 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
                         
-            
-            
-                
+                        
                     
                 
                 
@@ -871,9 +893,6 @@
                     
                     
 
-                    
-            
-        
                     
             
         
@@ -902,6 +921,24 @@
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
                     
                 
                 
@@ -924,10 +961,10 @@
 
 
         
-            <a class="nav nav-prev" href="/rock960/installos/install/" title="Flash the image"> <i class="fa fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="/rock960/installos/tools/" title="Tools and drivers"> <i class="fa fa-chevron-left"></i></a>
         
         
-            <a class="nav nav-next" href="/rock960/start/" title="Getting started" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+            <a class="nav nav-next" href="/rock960/installos/tools/windows/" title="Windows" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 

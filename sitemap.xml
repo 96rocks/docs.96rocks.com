@@ -67,12 +67,24 @@
   </url>
   
   <url>
+    <loc>https://docs.96rocks.com/rock960/installos/tools/linux/</loc>
+  </url>
+  
+  <url>
     <loc>https://docs.96rocks.com/rock960/</loc>
   </url>
   
   <url>
     <loc>https://docs.96rocks.com/tags/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://docs.96rocks.com/rock960/installos/tools/windows/</loc>
+  </url>
+  
+  <url>
+    <loc>https://docs.96rocks.com/rock960/installos/tools/macos/</loc>
   </url>
   
 </urlset>
