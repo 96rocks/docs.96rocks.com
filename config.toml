@@ -37,12 +37,12 @@ languageName = "English"
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fa fa-github'></i> Contribute"
-url = "contribute"
+url = "/contribute"
 weight = 10
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fa fa-bullhorn'></i> Credits"
-url = "credits"
+url = "/credits"
 weight = 30
 
 [[Languages.en.menu.shortcuts]]
