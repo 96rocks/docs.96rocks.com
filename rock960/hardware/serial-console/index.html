@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="generator" content="Hugo 0.32.4" />
 
-<title>Tools and drivers :: Documentation for 96rocks</title>
+<title>Connect serial console :: Documentation for 96rocks</title>
 <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
 <link href="/css/nucleus.css" rel="stylesheet">
 <link href="/css/font-awesome.min.css" rel="stylesheet">
@@ -23,13 +23,13 @@
     display:none !important;
   }
 </style>
-<meta name="description" content="Find the tools for your desktop platform">
+<meta name="description" content="Documentation for 96rocks project.">
 <meta name="author" content="96rocks project">
 
 
     
   </head>
-  <body data-url="/rock960/start/installos/tools/">
+  <body data-url="/rock960/hardware/serial-console/">
     
       <div id="headermain"></div>
 <nav id="sidebar" class="showVisitedLinks">
@@ -75,11 +75,10 @@
             <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-check-square read-icon"></i>
       </div>
         <ul>
-    <li data-nav-id="/rock960/start/" class="dd-item parent haschildren
+    <li data-nav-id="/rock960/start/" class="dd-item haschildren
         ">
       <div>
-      <a href="/rock960/start/">Getting started</a>
-            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-check-square read-icon"></i>
+      <a href="/rock960/start/">Getting started</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-check-square read-icon"></i>
       </div>
         <ul>
     <li data-nav-id="/rock960/start/unbox/" class="dd-item haschildren
@@ -125,11 +124,10 @@
     </li>
         </ul>
     </li>
-    <li data-nav-id="/rock960/start/installos/" class="dd-item parent haschildren
+    <li data-nav-id="/rock960/start/installos/" class="dd-item haschildren
         ">
       <div>
-      <a href="/rock960/start/installos/"><b>2. </b>Install OS</a>
-            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-check-square read-icon"></i>
+      <a href="/rock960/start/installos/"><b>2. </b>Install OS</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-check-square read-icon"></i>
       </div>
         <ul>
       <li data-nav-id="/rock960/start/installos/chooseos/" class="dd-item">
@@ -139,11 +137,10 @@
           </a><i class="fa fa-check-square read-icon"></i>
         </div>
     </li>
-    <li data-nav-id="/rock960/start/installos/tools/" class="dd-item parent active haschildren
+    <li data-nav-id="/rock960/start/installos/tools/" class="dd-item haschildren
         ">
       <div>
-      <a href="/rock960/start/installos/tools/">Tools and drivers</a>
-            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-check-square read-icon"></i>
+      <a href="/rock960/start/installos/tools/">Tools and drivers</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-check-square read-icon"></i>
       </div>
         <ul>
       <li data-nav-id="/rock960/start/installos/tools/linux/" class="dd-item">
@@ -208,13 +205,14 @@
     </li>
         </ul>
     </li>
-    <li data-nav-id="/rock960/hardware/" class="dd-item haschildren
+    <li data-nav-id="/rock960/hardware/" class="dd-item parent haschildren
         ">
       <div>
-      <a href="/rock960/hardware/">Hardware</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-check-square read-icon"></i>
+      <a href="/rock960/hardware/">Hardware</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-check-square read-icon"></i>
       </div>
         <ul>
-      <li data-nav-id="/rock960/hardware/serial-console/" class="dd-item">
+      <li data-nav-id="/rock960/hardware/serial-console/" class="dd-item active">
         <div>
           <a href="/rock960/hardware/serial-console/">
             Connect serial console
@@ -271,7 +269,7 @@
       
       
     <div id="top-github-link">
-      <a class="github-link" href="https://github.com/96rocks/docs.96rocks.com/edit/master/content/rock960/start/installos/tools/_index.en.md" target="blank">
+      <a class="github-link" href="https://github.com/96rocks/docs.96rocks.com/edit/master/content/rock960/hardware/serial-console.md" target="blank">
         <i class="fa fa-code-fork"></i>
         Improve this page
       </a>
@@ -294,12 +292,7 @@
 
 
 
-
-
-
- <a href='/'>Docs for 96rocks</a> > <a href='/rock960/'>ROCK960</a> > <a href='/rock960/start/'>Getting started</a> > <a href='/rock960/start/installos/'>Install OS</a> > Tools and drivers
-
- 
+ <a href='/'>Docs for 96rocks</a> > <a href='/rock960/'>ROCK960</a> > <a href='/rock960/hardware/'>Hardware</a> > Connect serial console
 
  
 
@@ -314,7 +307,24 @@
     
     <div class="progress">
         <div class="wrapper">
-    
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#requirement">Requirement</a></li>
+<li><a href="#connect">Connect</a></li>
+<li><a href="#serial-setting-on-host-pc">Serial setting on host PC</a>
+<ul>
+<li><a href="#linux">Linux</a>
+<ul>
+<li><a href="#recapitulation">Recapitulation</a></li>
+</ul></li>
+<li><a href="#macos">macOS</a></li>
+<li><a href="#windows">Windows</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
         </div>
     </div>
     
@@ -324,7 +334,7 @@
 
 <div id="body-inner">
   
-    <h1>Tools and drivers</h1>
+    <h1>Connect serial console</h1>
   
 
 
@@ -332,31 +342,184 @@
     
     
     
+    
 
-<p>Choose your desktop environment to start.</p>
+<p>ROCK960 exports a dedicated serial console, which can access the low level debug message.</p>
 
+<h2 id="requirement">Requirement</h2>
 
-
-<ul class="children children-h3">
-
-<span><h3>
-		<a href="/rock960/start/installos/tools/linux/" >Linux</a></h3>
-</span>
-
-<span><h3>
-		<a href="/rock960/start/installos/tools/windows/" >Windows</a></h3>
-</span>
-
-<span><h3>
-		<a href="/rock960/start/installos/tools/macos/" >macOS</a></h3>
-</span>
+<ul>
+<li>ROCK960</li>
+<li>12V/2A DC 4.0 power adapter</li>
+<li><a href="https://store.vamrs.com/products/usb-to-ttl-cable">USB to TTL serial cable</a></li>
+<li>Host PC with Windows or Linux</li>
 </ul>
 
 
 
+<div class="alert alert-warning" role="alert"><ul>
+<li><p>The default baudrate of ROCK960 is 1500000(1.5Mbps), please check if your USB to TTL cable support 1.5Mbps baudrate. Some model of <a href="https://www.silabs.com/products/interface/usb-bridges">CP210X</a> and <a href="http://www.prolific.com.tw/US/ShowProduct.aspx?pcid=41">PL2303x</a> has baudrate limitation, please check the specified model. We also tested that some cheap PL2303x based cable does not work well. Make sure choose a high quality one. The instruction below use a <a href="http://www.ftdichip.com/Products/ICs/FT232R.htm">FT232RL</a> based cable.</p></li>
+
+<li><p>It seems the serial tool on macOS platform can not support custom baudrate such as 1.5Mbps due to driver restriction, if you know how to set custom baudrate on macOS, please send pull requrest to update the documents.</p>
+
+<p><code>/bin/stty -f /dev/cu.usbserial-14430   1500000</code></p>
+
+<p><code>stty: tcsetattr: Invalid argument</code></p></li>
+</ul>
+</div>
 
 
 
+<h2 id="connect">Connect</h2>
+
+<p>Connect the USB to TTL serial cable as below:</p>
+
+<pre><code>RX     &lt;----&gt;    GREEN
+TX     &lt;----&gt;    WHITE
+GND    &lt;----&gt;    BLACK
+</code></pre>
+
+<p><img src="/rock960/hardware/images/serial-connection.jpg" alt="rock960 serial connection" /></p>
+
+
+
+
+
+	<div class="alert alert-warning" role="alert"><p>Don&rsquo;t connect the red wire.</p>
+</div>
+
+
+
+
+<h2 id="serial-setting-on-host-pc">Serial setting on host PC</h2>
+
+<p>The default serial setting for ROCK960 u-boot and kernel console is:</p>
+
+<pre><code>baudrate: 1500000
+data bit: 8
+stop bit: 1
+parity  : none
+flow control: none
+</code></pre>
+
+<h3 id="linux">Linux</h3>
+
+<p>Minicom is a the serial tool that supports wide range baud rate.</p>
+
+<p>Install minicom:</p>
+
+<pre><code>sudo apt install minicom
+</code></pre>
+
+<p>Plug in the USB to TTL cable, kernel <code>dmesg | tail</code> should show the following device:</p>
+
+<pre><code>[  244.443685] usbserial: USB Serial support registered for FTDI USB Serial Device
+[  244.443729] ftdi_sio 3-2:1.0: FTDI USB Serial Device converter detected
+[  244.443782] usb 3-2: Detected FT232BM
+[  244.445317] usb 3-2: FTDI USB Serial Device converter now attached to ttyUSB0
+</code></pre>
+
+<p><strong>/dev/ttyUSB0</strong> is our device here.</p>
+
+<p>Run</p>
+
+<pre><code>sudo minicom -D /dev/ttyUSB0
+</code></pre>
+
+<pre>
+
+Welcome to minicom 2.7
+
+OPTIONS: I18n 
+Compiled on Feb  7 2016, 13:37:27.
+Port /dev/ttyUSB0, 08:13:38
+
+Press CTRL-A Z for help on special keys
+
+            +-----[configuration]------+
+            | Filenames and paths      |
+            | File transfer protocols  |
+            | Serial port setup        |
+            | Modem and dialing        |
+            | Screen and keyboard      |
+            | Save setup as dfl        |
+            | Save setup as..          |
+            | Exit                     |
+            +--------------------------+
+
+
+
+CTRL-A Z for help | 1500000 8N1 | NOR | Minicom 2.7 | VT102 | Offline | ttyUSB0
+
+</pre>
+
+<p>Press <code>Ctrl+A</code> and then <code>O</code>(press Ctrl key and A key at the same time and release, then press O key) to open the configuration menu. Choose <strong>Serial port setup</strong>, and change the setting as following:</p>
+
+<pre>
+
+Welcome to minicom 2.7
+
+OPTI+-----------------------------------------------------------------------+
+Comp| A -    Serial Device      : /dev/ttyUSB0                              |
+Port| B - Lockfile Location     : /var/lock                                 |
+    | C -   Callin Program      :                                           |
+Pres| D -  Callout Program      :                                           |
+    | E -    Bps/Par/Bits       : 1500000 8N1                               |
+    | F - Hardware Flow Control : No                                        |
+    | G - Software Flow Control : No                                        |
+    |                                                                       |
+    |    Change which setting?                                              |
+    +-----------------------------------------------------------------------+
+            | Screen and keyboard      |
+            | Save setup as dfl        |
+            | Save setup as..          |
+            | Exit                     |
+            +--------------------------+
+
+
+
+
+CTRL-A Z for help | 1500000 8N1 | NOR | Minicom 2.7 | VT102 | Offline | ttyUSB0
+
+</pre>
+
+<p>Please note the <strong>E - Bps/Par/Bits</strong> setting, you should use A and B key to find the right baud rate <strong>1500000</strong>.</p>
+
+<pre>
+
+Welcome to minicom 2.7
+
+OPTI+-----------------+---------[Comm Parameters]----------+----------------+
+Comp| A -    Serial De|                                    |                |
+Port| B - Lockfile Loc|     Current: 1500000 8N1           |                |
+    | C -   Callin Pro| Speed            Parity      Data  |                |
+Pres| D -  Callout Pro| A: <next>        L: None     S: 5  |                |
+    | E -    Bps/Par/B| B: <prev>        M: Even     T: 6  |                |
+    | F - Hardware Flo| C:   9600        N: Odd      U: 7  |                |
+    | G - Software Flo| D:  38400        O: Mark     V: 8  |                |
+    |                 | E: 115200        P: Space          |                |
+    |    Change which |                                    |                |
+    +-----------------| Stopbits                           |----------------+
+            | Screen a| W: 1             Q: 8-N-1          |
+            | Save set| X: 2             R: 7-E-1          |
+            | Save set|                                    |
+            | Exit    |                                    |
+            +---------| Choice, or <Enter> to exit?        |
+                      +------------------------------------+
+
+
+
+CTRL-A Z for help | 1500000 8N1 | NOR | Minicom 2.7 | VT102 | Offline | ttyUSB0
+
+</pre>
+
+<h4 id="recapitulation">Recapitulation</h4>
+
+<script src="https://asciinema.org/a/164637.js" id="asciicast-164637" async></script>
+
+<h3 id="macos">macOS</h3>
+
+<h3 id="windows">Windows</h3>
 
 
     
@@ -368,8 +531,8 @@
 </div>
 
 <div id="navigation">
-<a class="nav nav-prev" href="/rock960/start/installos/chooseos/" title="Choose an image"> <i class="fa fa-chevron-left"></i><label>Choose an image</label></a>
-    <a class="nav nav-next" href="/rock960/start/installos/tools/linux/" title="Linux" style="margin-right: 0px;"><label>Linux</label><i class="fa fa-chevron-right"></i></a></div>
+<a class="nav nav-prev" href="/rock960/hardware/" title="Hardware"> <i class="fa fa-chevron-left"></i><label>Hardware</label></a>
+    <a class="nav nav-next" href="/rock960/start/" title="Getting started" style="margin-right: 0px;"><label>Getting started</label><i class="fa fa-chevron-right"></i></a></div>
 
 </section>
 <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">

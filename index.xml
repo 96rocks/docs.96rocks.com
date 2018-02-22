@@ -100,6 +100,16 @@ How to go to fastboot mode There are 2 ways to go to fastboot mode
     </item>
     
     <item>
+      <title>Connect serial console</title>
+      <link>https://docs.96rocks.com/rock960/hardware/serial-console/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.96rocks.com/rock960/hardware/serial-console/</guid>
+      <description>ROCK960 exports a dedicated serial console, which can access the low level debug message.
+Requirement  ROCK960 12V/2A DC 4.0 power adapter USB to TTL serial cable Host PC with Windows or Linux   The default baudrate of ROCK960 is 1500000(1.5Mbps), please check if your USB to TTL cable support 1.5Mbps baudrate. Some model of CP210X and PL2303x has baudrate limitation, please check the specified model. We also tested that some cheap PL2303x based cable does not work well.</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>https://docs.96rocks.com/credits/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
